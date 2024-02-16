@@ -1,0 +1,21 @@
+{
+    "name": "Python Install",
+    "id": "python",
+    "version": "0.0.1",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "3.8",
+                "3.9",
+                "3.10",
+                "3.11",
+                "3.12"
+            ],
+            "default": "3.11"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
