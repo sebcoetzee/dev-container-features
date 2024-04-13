@@ -1,0 +1,19 @@
+{
+    "name": "Node Install",
+    "id": "nodejs",
+    "version": "0.0.1",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "18",
+                "20",
+                "21"
+            ],
+            "default": "21"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
