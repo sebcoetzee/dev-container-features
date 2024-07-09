@@ -1,0 +1,21 @@
+{
+    "name": "TeXLive Install",
+    "id": "texlive",
+    "version": "0.0.1",
+    "options": {
+        "scheme": {
+            "type": "string",
+            "enum": [
+                "full",
+                "medium",
+                "small",
+                "basic",
+                "minimal"
+            ],
+            "default": "small"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
