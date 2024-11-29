@@ -1,0 +1,19 @@
+{
+    "name": "Go Install",
+    "id": "go",
+    "version": "0.0.1",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "1.23.3"
+        }
+    },
+    "containerEnv": {
+        "GOROOT": "/usr/local/go",
+        "GOPATH": "/go",
+        "PATH": "/usr/local/go/bin:/go/bin:${PATH}"
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
