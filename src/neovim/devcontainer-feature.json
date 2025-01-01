@@ -1,0 +1,14 @@
+{
+    "name": "Neovim Install",
+    "id": "neovim",
+    "version": "0.0.1",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "0.10.3",
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
