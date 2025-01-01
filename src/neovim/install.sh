@@ -3,7 +3,7 @@ set -eux
 
 echo "Installing Neovim..."
 
-cd ~/
+cd $_REMOTE_USER_HOME
 curl -OL https://github.com/neovim/neovim/releases/download/v${VERSION}/nvim-linux64.tar.gz
 tar -xvf nvim-linux64.tar.gz
 rm nvim-linux64.tar.gz
@@ -15,5 +15,5 @@ export PATH="$HOME/nvim-linux64/bin:$PATH"
 
 '
 
-echo "$BASH_SNIPPET" >> ~/.bashrc
+echo "$BASH_SNIPPET" >> "$_REMOTE_USER_HOME/.bashrc"
 
