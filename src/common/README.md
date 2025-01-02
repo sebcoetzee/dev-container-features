@@ -15,7 +15,7 @@
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| tmux_version | - | string | 3.5 |
 
 
 
