@@ -15,8 +15,7 @@
             "default": "3.11"
         }
     },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/sebcoetzee/dev-container-features/common:0"
-    ]
+    "dependsOn": {
+        "ghcr.io/sebcoetzee/dev-container-features/common": {}
+    }
 }

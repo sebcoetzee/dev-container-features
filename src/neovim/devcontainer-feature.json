@@ -8,8 +8,7 @@
             "default": "0.10.3",
         }
     },
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/sebcoetzee/dev-container-features/common:0"
-    ]
+    "dependsOn": {
+        "ghcr.io/sebcoetzee/dev-container-features/common": {}
+    }
 }

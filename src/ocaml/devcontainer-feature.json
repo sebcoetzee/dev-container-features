@@ -3,8 +3,7 @@
     "id": "ocaml",
     "version": "0.0.2",
     "options": {},
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/sebcoetzee/dev-container-features/common:0"
-    ]
+    "dependsOn": {
+        "ghcr.io/sebcoetzee/dev-container-features/common": {}
+    }
 }
