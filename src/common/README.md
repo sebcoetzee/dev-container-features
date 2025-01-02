@@ -1,5 +1,5 @@
 
-# OCaml Install (ocaml)
+# Common Packages Install (common)
 
 
 
@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-    "ghcr.io/sebcoetzee/dev-container-features/ocaml:0": {}
+    "ghcr.io/sebcoetzee/dev-container-features/common:0": {}
 }
 ```
 
