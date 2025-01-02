@@ -1,7 +1,7 @@
 {
     "name": "OCaml Install",
     "id": "ocaml",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "options": {},
     "dependsOn": {
         "ghcr.io/sebcoetzee/dev-container-features/common": {}

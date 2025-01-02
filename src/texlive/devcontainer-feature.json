@@ -1,7 +1,7 @@
 {
     "name": "TeXLive Install",
     "id": "texlive",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "options": {
         "scheme": {
             "type": "string",
