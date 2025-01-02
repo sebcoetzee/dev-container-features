@@ -4,10 +4,8 @@
     "version": "0.0.2",
     "options": {
         "tmux_version": {
-            {
-                "type": "string",
-                "default": "3.5",
-            }
+            "type": "string",
+            "default": "3.5"
         }
     }
 }
