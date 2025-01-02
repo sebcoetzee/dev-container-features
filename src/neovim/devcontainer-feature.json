@@ -1,7 +1,7 @@
 {
     "name": "Neovim Install",
     "id": "neovim",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "options": {
         "version": {
             "type": "string",
@@ -9,6 +9,7 @@
         }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils"
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/sebcoetzee/dev-container-features/common:0"
     ]
 }
