@@ -1,6 +1,6 @@
 {
-    "name": "OCaml Install",
-    "id": "ocaml",
+    "name": "Common Packages Install",
+    "id": "common",
     "version": "0.0.1",
     "options": {},
     "installsAfter": [
