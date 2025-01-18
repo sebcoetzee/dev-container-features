@@ -1,0 +1,15 @@
+{
+    "name": ".NET install",
+    "id": "dotnet",
+    "version": "0.0.1",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "6.0.428"
+        }
+    },
+    "containerEnv": {
+        "DOTNET_ROOT": "/usr/local/dotnet",
+        "PATH": "/usr/local/dotnet:${PATH}"
+    }
+}
