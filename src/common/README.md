@@ -16,6 +16,7 @@
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | tmux_version | - | string | 3.5 |
+| fzf_version | - | string | 0.57.0 |
 
 
 
