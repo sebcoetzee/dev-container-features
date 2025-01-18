@@ -1,11 +1,11 @@
 {
     "name": ".NET install",
     "id": "dotnet",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "options": {
         "version": {
             "type": "string",
-            "default": "6.0.428"
+            "default": "9.0.102"
         }
     },
     "containerEnv": {
