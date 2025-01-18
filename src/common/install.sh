@@ -6,6 +6,10 @@ set -eux
 
 ARCH="$(dpkg --print-architecture)"
 
+echo "Generating en_GB locale..."
+locale-gen en_GB
+locale-gen en_GB.UTF-8
+
 echo "Installing common packages..."
 
 apt update
