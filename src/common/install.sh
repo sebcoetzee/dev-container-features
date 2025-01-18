@@ -17,6 +17,7 @@ mkdir -p $_REMOTE_USER_HOME/.local/bin
 mkdir -p $_REMOTE_USER_HOME/.local/lib
 mkdir -p $_REMOTE_USER_HOME/.local/include
 mkdir -p $_REMOTE_USER_HOME/.local/share
+chown -R $_REMOTE_USER:$_REMOTE_USER $_REMOTE_USER_HOME/.local
 
 echo "Installing fzf..."
 cd /tmp
