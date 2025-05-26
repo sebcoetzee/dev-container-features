@@ -1,0 +1,10 @@
+{
+    "name": "Rust Install",
+    "id": "rust",
+    "version": "0.0.1",
+    "options": {},
+    "containerEnv": {},
+    "dependsOn": {
+        "ghcr.io/sebcoetzee/dev-container-features/common": {}
+    }
+}
